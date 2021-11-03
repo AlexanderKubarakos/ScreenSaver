@@ -22,7 +22,7 @@ public class Main {
 		while (gc.getKeyCode() != 'Q') {
 
 			drawGraphics();
-
+			// Haha 
 			gc.sleep(SLEEPTIME);
 		}
 		
