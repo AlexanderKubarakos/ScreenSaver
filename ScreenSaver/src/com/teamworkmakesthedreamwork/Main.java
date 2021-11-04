@@ -1,4 +1,5 @@
 package com.teamworkmakesthedreamwork;
+
 import java.awt.Color;
 import java.awt.Font;
 
@@ -7,7 +8,7 @@ import hsa2.GraphicsConsole;
 public class Main {
 
 	public static void main(String[] args) {
-			new Main();
+		new Main();
 	}
 	
 	static final int SLEEPTIME = 10;
