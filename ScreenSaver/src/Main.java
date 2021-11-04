@@ -18,11 +18,11 @@ public class Main {
 	private Main() {
 		initialize();
 
-		//main game loop
+		//main loop, q to quit
 		while (gc.getKeyCode() != 'Q') {
 
 			drawGraphics();
-			// Haha 
+			
 			gc.sleep(SLEEPTIME);
 		}
 		
@@ -37,7 +37,7 @@ public class Main {
 		gc.enableMouseMotion();
 		gc.clear();
 		
-		gc.sleep(500);
+		System.out.println("Finished Initialization!");
 	}
 	
 	void drawGraphics() {
@@ -47,8 +47,7 @@ public class Main {
 			
 			gc.setColor(Color.WHITE);
 			gc.setStroke(4);
-			gc.drawArc(GRWIDTH/2-200, GRHEIGHT/2-200, 400, 400, 0, 90);
-			//gc.drawLine(GRWIDTH/2-200, GRHEIGHT/2-200, GRWIDTH/2+200, GRHEIGHT/2+200);
+			gc.drawLine(GRWIDTH/2-200, GRHEIGHT/2-200, GRWIDTH/2+200, GRHEIGHT/2+200);
 		}
 	}
 }
